@@ -10,35 +10,27 @@ Game Poker Card yang menggunakan OpenCV untuk pemrosesan gambar dan CNN untuk pr
 Pastikan Anda telah menginstal:
 - **Python**: Versi 3.12.7 atau lebih baru.
 - **Library dan dependensi**: Dapat diinstal melalui `requirements.txt`:
-  ```bash
-  pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 
 Cara Menjalankan
 Ikuti langkah-langkah berikut untuk menjalankan game:
 
-Clone repository:
 
-bash
-Copy code
-git clone https://github.com/aarspace/PCV-Poker-Card.git
-Masuk ke direktori proyek:
-
-bash
-Copy code
+ ```bash
+# Clone repository 
+git clone https://github.com/aarspace/PCV-Poker-Card.git 
+ ```
+ ```bash
+# Masuk ke direktori proyek
 cd PCV-Poker-Card
-Masuk ke direktori controller:
-
-bash
-Copy code
-cd Controller
-Instal semua dependensi:
-
-bash
-Copy code
-pip install -r requirements.txt
-Jalankan program:
-
-bash
-Copy code
-python3 player_vs_bot_cont.py
+ ```
+  ```bash
+# Masuk ke direktori controller
+cd View
+ ```
+ ```bash
+# Jalankan program
+python3 loading.py
+```
