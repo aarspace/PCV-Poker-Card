@@ -32,5 +32,5 @@ cd View
  ```
  ```bash
 # Jalankan program
-python3 loading.py
+python3 main_menu.py
 ```
